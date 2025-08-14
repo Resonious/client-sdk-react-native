@@ -35,7 +35,7 @@ import { Platform } from 'react-native';
 import {
   mediaDevices,
   ScreenCapturePickerView,
-} from '@livekit/react-native-webrtc';
+} from '@baillie/react-native-webrtc';
 import { startCallService, stopCallService } from './callservice/CallService';
 import Toast from 'react-native-toast-message';
 

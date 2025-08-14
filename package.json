@@ -1,7 +1,7 @@
 {
-  "name": "@livekit/react-native",
+  "name": "@baillie/livekit-react-native",
   "version": "2.9.1",
-  "description": "LiveKit for React Native",
+  "description": "LiveKit for React Native (modified)",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -26,13 +26,13 @@
     "!**/__fixtures__",
     "!**/__mocks__"
   ],
-  "repository": "https://github.com/livekit/client-sdk-react-native",
+  "repository": "https://github.com/baillie/client-sdk-react-native",
   "author": "LiveKit <dl@livekit.io> (https://livekit.io/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/livekit/client-sdk-react-native/issues"
+    "url": "https://github.com/baillie/client-sdk-react-native/issues"
   },
-  "homepage": "https://github.com/livekit/client-sdk-react-native#readme",
+  "homepage": "https://github.com/baillie/client-sdk-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -58,8 +58,8 @@
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@baillie/react-native-webrtc": "^137.0.1",
     "@commitlint/config-conventional": "^16.2.1",
-    "@livekit/react-native-webrtc": "^137.0.1",
     "@react-native/babel-preset": "0.74.84",
     "@react-native/eslint-config": "0.74.84",
     "@react-native/metro-config": "0.74.84",
@@ -86,7 +86,7 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "@livekit/react-native-webrtc": "^137.0.1",
+    "@baillie/react-native-webrtc": "^137.0.1",
     "livekit-client": "^2.15.4",
     "react": "*",
     "react-native": "*"

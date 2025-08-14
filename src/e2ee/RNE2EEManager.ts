@@ -4,7 +4,7 @@ import {
   RTCRtpReceiver,
   type RTCFrameCryptor,
   type RTCRtpSender,
-} from '@livekit/react-native-webrtc';
+} from '@baillie/react-native-webrtc';
 import {
   LocalParticipant,
   LocalTrackPublication,

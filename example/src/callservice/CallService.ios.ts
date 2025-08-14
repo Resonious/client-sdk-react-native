@@ -6,7 +6,7 @@ import RNCallKeep, {
   CONSTANTS as CK_CONSTANTS,
 } from 'react-native-callkeep';
 
-import { RTCAudioSession } from '@livekit/react-native-webrtc';
+import { RTCAudioSession } from '@baillie/react-native-webrtc';
 
 let uuid = '1932b99c-4fe1-4bf4-897f-763bc4dc21c2';
 

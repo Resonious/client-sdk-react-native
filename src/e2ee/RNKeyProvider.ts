@@ -3,7 +3,7 @@ import {
   RTCFrameCryptorFactory,
   RTCKeyProvider,
   type RTCKeyProviderOptions,
-} from '@livekit/react-native-webrtc';
+} from '@baillie/react-native-webrtc';
 
 const defaultRatchetSalt = 'LKFrameEncryptionKey';
 const defaultMagicBytes = 'LK-ROCKS';

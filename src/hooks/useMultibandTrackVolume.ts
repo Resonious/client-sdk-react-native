@@ -7,7 +7,7 @@ import {
 import { useEffect, useMemo, useState } from 'react';
 import { addListener, removeListener } from '../events/EventEmitter';
 import LiveKitModule from '../LKNativeModule';
-import type { MediaStreamTrack } from '@livekit/react-native-webrtc';
+import type { MediaStreamTrack } from '@baillie/react-native-webrtc';
 
 /**
  * Interface for configuring options for the useMultibandTrackVolume hook.

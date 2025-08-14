@@ -1647,6 +1647,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@baillie/react-native-webrtc@npm:^137.0.1":
+  version: 137.0.1
+  resolution: "@baillie/react-native-webrtc@npm:137.0.1"
+  dependencies:
+    base64-js: 1.5.1
+    debug: 4.3.4
+    event-target-shim: 6.0.2
+  peerDependencies:
+    react-native: ">=0.60.0"
+  checksum: f82578b1253f9edd50cd198643ee225e456246951e470ae50800ce4f3c4970b4b7ed9cedf7f2301d650b6a7fc1c8b44d216e052b34f560003928348bd78ccc73
+  languageName: node
+  linkType: hard
+
 "@bcoe/v8-coverage@npm:^0.2.3":
   version: 0.2.3
   resolution: "@bcoe/v8-coverage@npm:0.2.3"
@@ -2171,19 +2184,6 @@ __metadata:
   dependencies:
     "@bufbuild/protobuf": ^1.10.0
   checksum: 72aa3b9e82203ccec039047518d841d65b10dcc11ab9d661f269eab8a8672aed7b2d072f4f09cc6fb94a2579542b0a9216d7f66476d34cd1675c13e1ebcc119f
-  languageName: node
-  linkType: hard
-
-"@livekit/react-native-webrtc@npm:^137.0.1":
-  version: 137.0.1
-  resolution: "@livekit/react-native-webrtc@npm:137.0.1"
-  dependencies:
-    base64-js: 1.5.1
-    debug: 4.3.4
-    event-target-shim: 6.0.2
-  peerDependencies:
-    react-native: ">=0.60.0"
-  checksum: 3341aafe7d9d1deb345e47247faa020b2cb5f1adbded135a244f0f9285eed720c9f62325bbce0e21c1da755ae24ae6c69eb07728cece709560f615908bde43a9
   languageName: node
   linkType: hard
 
@@ -3871,8 +3871,8 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
+    "@baillie/react-native-webrtc": ^137.0.1
     "@livekit/react-native": "*"
-    "@livekit/react-native-webrtc": ^137.0.1
     "@react-native/babel-preset": 0.74.84
     "@react-native/eslint-config": 0.74.84
     "@react-native/metro-config": 0.74.84

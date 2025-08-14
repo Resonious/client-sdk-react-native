@@ -1,4 +1,4 @@
-import type { MediaStream } from '@livekit/react-native-webrtc';
+import type { MediaStream } from '@baillie/react-native-webrtc';
 import { addListener } from '../events/EventEmitter';
 import {
   EventTarget,

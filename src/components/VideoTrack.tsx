@@ -17,7 +17,7 @@ import {
   RTCView,
   RTCPIPView,
   type RTCIOSPIPOptions,
-} from '@livekit/react-native-webrtc';
+} from '@baillie/react-native-webrtc';
 import {
   forwardRef,
   useCallback,
@@ -76,6 +76,12 @@ export type VideoTrackProps = {
   zOrder?: number;
 
   /**
+   * Apply video effects.
+   * Only works for local tracks.
+   */
+  effects?: Array<'backgroundWhite' | 'backgroundGreen'>;
+
+  /**
    * Picture in picture options for this view. Disabled if not supplied.
    *
    * iOS only. Requires iOS 15.0 or above, and the PIP background mode capability.
@@ -90,7 +96,7 @@ export type VideoTrackProps = {
    *
    * @example
    * ```tsx
-   * import { startIOSPIP, stopIOSPIP } from '@livekit/react-native-webrtc';
+   * import { startIOSPIP, stopIOSPIP } from '@baillie/react-native-webrtc';
    *
    * // Obtain a ref to the view
    * const videoRef = useRef<Component>(null);
@@ -142,6 +148,7 @@ export const VideoTrack = forwardRef<RTCViewInstance, VideoTrackProps>(
       objectFit = 'cover',
       zOrder,
       mirror,
+      effects,
       iosPIP,
     }: VideoTrackProps,
     ref
@@ -202,6 +209,12 @@ export const VideoTrack = forwardRef<RTCViewInstance, VideoTrackProps>(
         return () => {};
       }
     }, [videoTrack, elementInfo]);
+
+    useEffect(() => {
+      if (effects && videoTrack instanceof LocalVideoTrack) {
+        videoTrack.setVideoEffects(effects)
+      }
+    }, [videoTrack]);
 
     let videoView;
     if (!iosPIP || Platform.OS !== 'ios') {
