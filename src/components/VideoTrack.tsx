@@ -79,7 +79,7 @@ export type VideoTrackProps = {
    * Apply video effects.
    * Only works for local tracks.
    */
-  effects?: Array<'backgroundWhite' | 'backgroundGreen'>;
+  effects?: VideoTrackEffect[];
 
   /**
    * Picture in picture options for this view. Disabled if not supplied.
@@ -129,6 +129,8 @@ export type VideoTrackProps = {
     fallbackView?: ReactNode;
   };
 };
+
+export type VideoTrackEffect = 'backgroundWhite' | 'backgroundGreen';
 
 type RTCViewInstance = InstanceType<typeof RTCView>;
 
