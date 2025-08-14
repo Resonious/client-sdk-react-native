@@ -213,10 +213,16 @@ export const VideoTrack = forwardRef<RTCViewInstance, VideoTrackProps>(
     }, [videoTrack, elementInfo]);
 
     useEffect(() => {
-      if (effects && videoTrack instanceof LocalVideoTrack) {
-        videoTrack.setVideoEffects(effects)
+      if (!effects || !videoTrack?.isLocal || !videoTrack.mediaStream) {
+        return;
       }
-    }, [videoTrack]);
+
+      for (const video of videoTrack.mediaStream.getVideoTracks()) {
+        if (video._setVideoEffect) {
+          video._setVideoEffects(effects);
+        }
+      }
+    }, [effects, videoTrack]);
 
     let videoView;
     if (!iosPIP || Platform.OS !== 'ios') {
