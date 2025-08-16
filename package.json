@@ -1,6 +1,6 @@
 {
   "name": "@baillie/livekit-react-native",
-  "version": "2.9.1",
+  "version": "2.9.1-1",
   "description": "LiveKit for React Native (modified)",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -58,7 +58,7 @@
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
-    "@baillie/react-native-webrtc": "^137.0.1",
+    "@baillie/react-native-webrtc": "137.0.1-1",
     "@commitlint/config-conventional": "^16.2.1",
     "@react-native/babel-preset": "0.74.84",
     "@react-native/eslint-config": "0.74.84",

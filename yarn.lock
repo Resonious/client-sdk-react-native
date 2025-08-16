@@ -1701,7 +1701,7 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@baillie/react-native-webrtc": ^137.0.1
+    "@baillie/react-native-webrtc": 137.0.1-1
     "@commitlint/config-conventional": ^16.2.1
     "@livekit/components-react": ^2.8.1
     "@react-native/babel-preset": 0.74.84
@@ -1746,16 +1746,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@baillie/react-native-webrtc@npm:^137.0.1":
-  version: 137.0.1
-  resolution: "@baillie/react-native-webrtc@npm:137.0.1"
+"@baillie/react-native-webrtc@npm:137.0.1-1":
+  version: 137.0.1-1
+  resolution: "@baillie/react-native-webrtc@npm:137.0.1-1"
   dependencies:
     base64-js: 1.5.1
     debug: 4.3.4
     event-target-shim: 6.0.2
   peerDependencies:
     react-native: ">=0.60.0"
-  checksum: f82578b1253f9edd50cd198643ee225e456246951e470ae50800ce4f3c4970b4b7ed9cedf7f2301d650b6a7fc1c8b44d216e052b34f560003928348bd78ccc73
+  checksum: fff9e0f958c469bf6cd7a7f61d0c954712c2045c7f021e83b53a76025e6741caa76863208390c00ac6bfa058dbf9f383a2ad4d430dd1f06e934422aee56f10a3
   languageName: node
   linkType: hard
 
