@@ -1,6 +1,6 @@
 {
   "name": "@baillie/livekit-react-native",
-  "version": "2.9.1-1",
+  "version": "2.9.1-1.1",
   "description": "LiveKit for React Native (modified)",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -86,7 +86,7 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "@baillie/react-native-webrtc": "^137.0.1",
+    "@baillie/react-native-webrtc": "^137.0.1-1",
     "livekit-client": "^2.15.4",
     "react": "*",
     "react-native": "*"

@@ -1739,7 +1739,7 @@ __metadata:
     web-streams-polyfill: ^4.1.0
     well-known-symbols: ^4.1.0
   peerDependencies:
-    "@baillie/react-native-webrtc": ^137.0.1
+    "@baillie/react-native-webrtc": ^137.0.1-1
     livekit-client: ^2.15.4
     react: "*"
     react-native: "*"
