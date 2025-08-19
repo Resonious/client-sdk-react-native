@@ -1701,7 +1701,7 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@baillie/react-native-webrtc": 137.0.1-1
+    "@baillie/react-native-webrtc": 137.0.1-2.2
     "@commitlint/config-conventional": ^16.2.1
     "@livekit/components-react": ^2.8.1
     "@react-native/babel-preset": 0.74.84
@@ -1739,23 +1739,23 @@ __metadata:
     web-streams-polyfill: ^4.1.0
     well-known-symbols: ^4.1.0
   peerDependencies:
-    "@baillie/react-native-webrtc": ^137.0.1-1
+    "@baillie/react-native-webrtc": ^137.0.1-2.2
     livekit-client: ^2.15.4
     react: "*"
     react-native: "*"
   languageName: unknown
   linkType: soft
 
-"@baillie/react-native-webrtc@npm:137.0.1-1":
-  version: 137.0.1-1
-  resolution: "@baillie/react-native-webrtc@npm:137.0.1-1"
+"@baillie/react-native-webrtc@npm:137.0.1-2.2":
+  version: 137.0.1-2.2
+  resolution: "@baillie/react-native-webrtc@npm:137.0.1-2.2"
   dependencies:
     base64-js: 1.5.1
     debug: 4.3.4
     event-target-shim: 6.0.2
   peerDependencies:
     react-native: ">=0.60.0"
-  checksum: fff9e0f958c469bf6cd7a7f61d0c954712c2045c7f021e83b53a76025e6741caa76863208390c00ac6bfa058dbf9f383a2ad4d430dd1f06e934422aee56f10a3
+  checksum: f423d9514601dfbc13c18a9d11989bc8001d9babe63f48eb8f81235464cde5ba339658ded976845555946bf83205900817a1cd881985b535cb7d55d5f474eab1
   languageName: node
   linkType: hard
 

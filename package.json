@@ -1,6 +1,6 @@
 {
   "name": "@baillie/livekit-react-native",
-  "version": "2.9.1-1.1",
+  "version": "2.9.1-2",
   "description": "LiveKit for React Native (modified)",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -58,7 +58,7 @@
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
-    "@baillie/react-native-webrtc": "137.0.1-1",
+    "@baillie/react-native-webrtc": "137.0.1-2.2",
     "@commitlint/config-conventional": "^16.2.1",
     "@react-native/babel-preset": "0.74.84",
     "@react-native/eslint-config": "0.74.84",
@@ -86,7 +86,7 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "@baillie/react-native-webrtc": "^137.0.1-1",
+    "@baillie/react-native-webrtc": "^137.0.1-2.2",
     "livekit-client": "^2.15.4",
     "react": "*",
     "react-native": "*"
@@ -207,5 +207,6 @@
         }
       ]
     ]
-  }
+  },
+  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c"
 }
