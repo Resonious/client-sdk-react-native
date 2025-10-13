@@ -27,7 +27,7 @@ import {
   AndroidAudioTypePresets,
   useIOSAudioManagement,
   useRNE2EEManager,
-} from '@livekit/react-native';
+} from '@baillie/livekit-react-native';
 import { Platform } from 'react-native';
 // @ts-ignore
 import {
