@@ -11,9 +11,9 @@
     "postinstall": "install-local ../"
   },
   "dependencies": {
-    "@baillie/react-native-webrtc": "^137.0.1",
+    "@baillie/react-native-webrtc": "^137.0.2",
     "@livekit/react-native": "*",
-    "livekit-client": "^2.15.4",
+    "livekit-client": "^2.15.8",
     "react": "18.2.0",
     "react-native": "0.74.2"
   },
