@@ -229,6 +229,7 @@ export const VideoTrack = forwardRef<RTCViewInstance, VideoTrackProps>(
       videoView = (
         <RTCView
           style={styles.videoTrack}
+          // @ts-expect-error
           streamURL={mediaStream?.toURL() ?? ''}
           objectFit={objectFit}
           zOrder={zOrder}
@@ -241,6 +242,7 @@ export const VideoTrack = forwardRef<RTCViewInstance, VideoTrackProps>(
       videoView = (
         <RTCPIPView
           style={styles.videoTrack}
+          // @ts-expect-error
           streamURL={mediaStream?.toURL() ?? ''}
           objectFit={objectFit}
           zOrder={zOrder}
