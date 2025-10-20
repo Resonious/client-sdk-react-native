@@ -17,6 +17,7 @@ import {
   RTCView,
   RTCPIPView,
   type RTCIOSPIPOptions,
+  type MediaStream,
 } from '@baillie/react-native-webrtc';
 import {
   forwardRef,
@@ -217,8 +218,10 @@ export const VideoTrack = forwardRef<RTCViewInstance, VideoTrackProps>(
         return;
       }
 
-      for (const video of videoTrack.mediaStream.getVideoTracks()) {
-        if (video._setVideoEffect) {
+      for (const video of (videoTrack.mediaStream as MediaStream).getVideoTracks()) {
+        // @ts-ignore - _setVideoEffects is a custom method on native tracks
+        if (video._setVideoEffects) {
+          // @ts-ignore
           video._setVideoEffects(effects);
         }
       }
