@@ -131,7 +131,7 @@ export type VideoTrackProps = {
   };
 };
 
-export type VideoTrackEffect = 'backgroundWhite' | 'backgroundGreen';
+export type VideoTrackEffect = 'backgroundWhite' | 'backgroundGreen' | 'backgroundWhiteHD';
 
 type RTCViewInstance = InstanceType<typeof RTCView>;
 
