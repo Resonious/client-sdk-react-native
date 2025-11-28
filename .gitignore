@@ -86,3 +86,4 @@ lib/
 !**/.yarn/releases
 !**/.yarn/sdks
 !**/.yarn/versions
+config.bat
